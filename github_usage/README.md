@@ -19,7 +19,32 @@ simply explaind.
 - make difference between git and github.
 
 
-## The way of start up  
+## The initial setting
+
+Before starting git, it is good for you 
+to add the code below to your *~/.bash_profile*  
+
+'''  
+\# Get the aliases and functions  
+if [ -f ~/.bashrc ]; then   
+        . ~/.bashrc   
+fi    
+
+\# Git branch in prompt ( useful)   
+parse_git_branch() {   
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'   
+}  
+\#export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $   "
+export PS1="\u \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "  
+
+export GIT_EDITOR=vim  
+
+\# edit environment variables for recognition of UTF-8  
+export LC_ALL=en_US.UTF-8  
+export LC_ALL=ja_JP.UTF-8  
+'''  
+
+
 
 ```
 git init
@@ -30,7 +55,7 @@ git commit
 
 
 ## [test] display picture 
-![sample](./test_pic.png)
+![sample](./test_pic.png)    
 <img src="./test_pic.png" width="150px"> 
 
 
