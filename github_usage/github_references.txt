@@ -1,0 +1,12 @@
+# GitHub Flow
+https://gist.github.com/Gab-km/3705015
+
+# チーム開発においてGit初心者が踏みがちな地雷まとめ
+https://techracho.bpsinc.jp/morimorihoge/2014_04_25/16856
+
+# Githubのプロジェクト(オリジナル・リポジトリ)を
+# 複数人で共有する(Collaborators権限)
+https://git-manual.net/github-collaborators-right/
+
+
+
