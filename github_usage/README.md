@@ -29,6 +29,9 @@ git commit
 
 
 
+## [test] display picture 
+![sample][./test_pic.png]
+
 
 
 
