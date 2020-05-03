@@ -30,8 +30,8 @@ git commit
 
 
 ## [test] display picture 
-[sample](./test_pic.png)
-<img = src="./test_pic.png" width="150px"> 
+![sample](./test_pic.png)
+<img src="./test_pic.png" width="150px"> 
 
 
 
