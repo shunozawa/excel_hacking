@@ -24,27 +24,26 @@ simply explaind.
 Before starting git, it is good for you 
 to add the code below to your *~/.bash_profile*  
 
-'''  
-\# Get the aliases and functions  
+Get the aliases and functions  
+```
 if [ -f ~/.bashrc ]; then   
         . ~/.bashrc   
 fi    
+```
 
-\# Git branch in prompt ( useful)   
+Git branch in prompt (useful)   
+
+* * *
 parse_git_branch() {   
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'   
 }  
-\#export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $   "
 export PS1="\u \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "  
 
 export GIT_EDITOR=vim  
 
-\# edit environment variables for recognition of UTF-8  
 export LC_ALL=en_US.UTF-8  
 export LC_ALL=ja_JP.UTF-8  
-'''  
-
-
+* * * 
 
 ```
 git init
