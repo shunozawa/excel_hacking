@@ -8,5 +8,15 @@ https://techracho.bpsinc.jp/morimorihoge/2014_04_25/16856
 # 複数人で共有する(Collaborators権限)
 https://git-manual.net/github-collaborators-right/
 
+# github, ドキュメント , 基本的な書き方とフォーマットの構文
+https://help.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax
+
+
+# GitHubを中心とした開発プロセス ドキュメント管理
+https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5
+
+
+
+
 
 
