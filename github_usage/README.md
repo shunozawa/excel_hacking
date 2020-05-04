@@ -61,9 +61,48 @@ git commit
 
 
 
+
+## Merge remote repository 
+
+### Case 1. 
+You clone origin repository at the time of B.    
+You write some program and commit twice ( X and Y ).  
+Also, origin repository is edited by some other person ( C and D)    
+
+How you can update your change into origin repository? 
+
+<img src="pic/remote_merge1.png" width="300px">   
+
+
+`git fetch` (the first process of `git pull`)  allows you 
+to fetch repository history from origin, 
+and save this into origin/master branch. 
+
+Then, the answer is, 
+```
+git fetch origin master
+git merge origin/master
+```
+or 
+```
+git pull origin master 
+```
+and after your resolve conflicts ( if exists),type the code below. 
+```
+git push origin master
+```
+Then you can update origin repository. 
+
+
+
+
+
+
+
+
 ## [test] display picture 
-![sample](./test_pic.png)    
-<img src="./test_pic.png" width="150px"> 
+![sample](pic/test_pic.png)    
+<img src="pic/test_pic.png" width="150px"> 
 
 
 
