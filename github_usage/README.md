@@ -64,6 +64,22 @@ git commit
 
 ## Merge remote repository 
 
+### routine work.
+
+If you share work in remote repository, 
+it is simplest (maybe not best) wasy to update your working.
+
+```
+git pull origin master   
+
+__edit_files__
+git add .
+git commit -m "some comment" 
+
+git push origin master 
+```
+
+
 ### Case 1. 
 You clone origin repository at the time of B.    
 You write some program and commit twice ( X and Y ).  
