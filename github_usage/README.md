@@ -67,14 +67,14 @@ git commit
 ### Case 1. 
 You clone origin repository at the time of B.    
 You write some program and commit twice ( X and Y ).  
-Also, origin repository is edited by some other person ( C and D)    
+Also, origin repository is edited by some other person ( C and D).    
 
-How you can update your change into origin repository? 
+How you can update your change into origin repository?   
 
-<img src="pic/remote_merge1.png" width="300px">   
+<img src="pic/remote_merge1.png" width="400px">   
 
 
-`git fetch` (the first process of `git pull`)  allows you 
+`git fetch` (the first process of `git pull`) allows you 
 to fetch repository history from origin, 
 and save this into origin/master branch. 
 
@@ -87,7 +87,8 @@ or
 ```
 git pull origin master 
 ```
-and after your resolve conflicts ( if exists),type the code below. 
+and after your resolve conflicts ( if exists),   
+type the code below.   
 ```
 git push origin master
 ```
